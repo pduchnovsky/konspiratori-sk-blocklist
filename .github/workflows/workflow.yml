@@ -1,0 +1,27 @@
+name: update
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+env:
+  filename: konspiratori-sk-filter.txt
+  USERNAME: ${{ secrets.USERNAME }}
+  USEREMAIL: ${{ secrets.USEREMAIL }}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Pull list, update format and save
+        run: curl -so - https://konspiratori.sk/static/lists/zoznam.txt | awk -F ',' '{print "||"$1"^"}' > $filename
+      - name: verify format and that the file is not empty
+        run: grep -E "^\|\|(([a-zA-Z](-?[a-zA-Z0-9])*)\.)+[a-zA-Z]{2,}\^$" $filename >/dev/null 2>&1 || exit 1
+      - name: Commit updated file
+        run: |
+          git config --global user.name "$USERNAME"
+          git config --global user.email "$USEREMAIL"
+          git add $filename
+          git commit -am "Updated filter"
+          git push
