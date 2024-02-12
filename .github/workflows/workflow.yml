@@ -6,6 +6,7 @@ on:
 
 env:
   filename: konspiratori-sk-filter.txt
+  URL: https://konspiratori.sk/static/lists/zoznam.txt
   USERNAME: ${{ secrets.USERNAME }}
   USEREMAIL: ${{ secrets.USEREMAIL }}
 
@@ -13,9 +14,16 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Pull list, update format and save
-        run: curl -so - https://konspiratori.sk/static/lists/zoznam.txt | awk -F ',' '{print "||"$1"^"}' > $filename
+        run: |
+          cat <<EOF > $filename
+          ! Homepage: https://konspiratori.sk
+          ! Title: Konspiratori.sk filter list
+          ! Last change: $(date)
+          ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
+          EOF
+          curl -so - $URL | awk -F ',' '{print "||"$1"^"}' >> $filename
       - name: verify format and that the file is not empty
         run: grep -E "^\|\|(([a-zA-Z](-?[a-zA-Z0-9])*)\.)+[a-zA-Z]{2,}\^$" $filename >/dev/null 2>&1 || exit 1
       - name: Commit updated file
