@@ -1,14 +1,15 @@
 name: update
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "54 */4 * * *"
   workflow_dispatch:
 
 env:
   filename: konspiratori-sk-filter.txt
-  URL: https://konspiratori.sk/static/lists/zoznam.txt
-  USERNAME: ${{ secrets.USERNAME }}
-  USEREMAIL: ${{ secrets.USEREMAIL }}
+  sourceurl: https://konspiratori.sk/static/lists/zoznam.txt
 
 jobs:
   update:
@@ -21,17 +22,17 @@ jobs:
           ! Homepage: https://konspiratori.sk
           ! Title: Konspiratori.sk filter list
           ! Last change: $(date)
-          ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
+          ! GitHub repository: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}
           ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
           !
-          $(curl -so - $URL | awk -F ',' '{print "||"$1"^"}')
+          $(curl -so - $sourceurl | awk -F ',' '{print "||"$1"^"}')
           EOF
       - name: verify basic format/content
         run: grep -E "^\|\|(([a-zA-Z](-?[a-zA-Z0-9])*)\.)+[a-zA-Z]{2,}\^$" $filename >/dev/null 2>&1 || exit 1
       - name: Commit updated file
         run: |
-          git config --global user.name "$USERNAME"
-          git config --global user.email "$USEREMAIL"
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com"
           git add $filename
           git commit -am "Updated filter"
           git push
