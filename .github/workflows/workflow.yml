@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
 
 env:
+  domain: konspiratori.sk
   filename: konspiratori-sk-filter.txt
   sourceurl: https://konspiratori.sk/static/lists/zoznam.txt
 
@@ -19,11 +20,11 @@ jobs:
       - name: Pull list, update format and save
         run: |
           cat <<-EOF > $filename
-          ! Homepage: https://konspiratori.sk
-          ! Title: Konspiratori.sk filter list
+          ! Homepage: https://${domain}
+          ! Title: ${domain} filter list
           ! Last change: $(date)
           ! GitHub repository: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}
-          ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
+          ! Note: This is an unofficial blocklist not related to the creators of ${domain}
           !
           $(curl -so - $sourceurl | awk -F ',' '{print "||"$1"^"}')
           EOF
