@@ -29,7 +29,7 @@ jobs:
           $(curl -so - $sourceurl | awk -F ',' '{print "||"$1"^"}')
           EOF
       - name: verify basic format/content
-        run: grep -E "^\|\|(([a-zA-Z](-?[a-zA-Z0-9])*)\.)+[a-zA-Z]{2,}\^$" $filename >/dev/null 2>&1 || exit 1
+        run: grep -qE "^\|\|(([a-zA-Z](-?[a-zA-Z0-9])*)\.)+[a-zA-Z]{2,}\^$" $filename || exit 1
       - name: Commit updated file
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
