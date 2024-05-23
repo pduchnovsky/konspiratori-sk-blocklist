@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Thu May 23 01:44:37 UTC 2024
+! Last change: Thu May 23 13:06:54 UTC 2024
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -97,6 +97,7 @@
 ||ceskoaktualne.cz^
 ||pravyprostor.cz^
 ||aktax.cz^
+||ovirustunejde.cz^
 ||sk.news-front.su^
 ||infovojna.bz^
 ||podtatransky-kurier.sk^
@@ -203,10 +204,12 @@
 ||drsne.sk^
 ||akw.sk^
 ||inforovnovaha.sk^
+||belobog.sk^
 ||kla.tv^
 ||jezis-kristus-varovanie.net^
 ||e-republika.ch^
 ||creativesociety.com^
+||spolocnostsbm.com^
 ||rodon.cz^
 ||slovenskeslovo.sk^
 ||domacaliecba.sk^
@@ -216,6 +219,7 @@
 ||quintus-sertorius.webnode.cz^
 ||slovinfos.sk^
 ||dennik-dnes.sk^
+||katolicka-cirkev-vosvete.webnode.sk^
 ||rehabilituj.sk^
 ||pozitivnisvet.cz^
 ||magazinslovensko.online^
@@ -231,6 +235,7 @@
 ||outsidermedia.cz^
 ||arindrexler.com^
 ||lucasperny.blog.pravda.sk^
+||laska-pretvara-svet.webnode.sk^
 ||farmazdravi.cz^
 ||tvotv.sk^
 ||paralelne.cz^
@@ -304,6 +309,7 @@
 ||svobodnymonitor.cz^
 ||parlamentne-volby-2016.sk^
 ||hfi.sk^
+||czechaslavakia.cz^
 ||noveslovo.sk^
 ||zlapanda.cz^
 ||eurodenik.cz^
