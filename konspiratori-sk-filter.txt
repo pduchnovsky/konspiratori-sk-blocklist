@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Wed Jun 19 13:09:03 UTC 2024
+! Last change: Thu Jun 20 01:50:05 UTC 2024
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -71,6 +71,7 @@
 ||alternativnimagazin.cz^
 ||isstras.eu^
 ||infokuryr.cz^
+||myspulesvet.org^
 ||zvtv.sk^
 ||cz24.news^
 ||voxpopuliblog.cz^
@@ -86,7 +87,6 @@
 ||freedomeurope.eu^
 ||lifenews.sk^
 ||samvojakvpoli.sk^
-||myspulesvet.org^
 ||zalobyvocistatu.sk^
 ||bezpressu.news^
 ||otevrisvoumysl.cz^
@@ -147,7 +147,7 @@
 ||nazorobcana.sk^
 ||hlavnespravy.sk^
 ||dostojneslovensko.eu^
-||jednotneslovensko.info^
+||zdravotnictvo2.webnode.sk^
 ||necenzurovanapravda.cz^
 ||silavedomia.sk^
 ||stopislam.eu^
@@ -180,17 +180,14 @@
 ||nezavislamedia.cz^
 ||volnazona.com^
 ||revoluciapravdy.sk^
-||zdravotnictvo2.webnode.sk^
 ||topcz.net^
 ||jnet.sk^
-||antiliberal.sk^
 ||bajecnezdravie.sk^
 ||radyprezdravie.sk^
 ||radyprezeny.sk^
 ||eurorespekt.sk^
 ||rodacirodakom.sk^
 ||dennik-republika.sk^
-||snn.sk^
 ||islamizace.cz^
 ||incorrect.cz^
 ||rtps.sk^
@@ -204,9 +201,7 @@
 ||breitbart.com^
 ||drsne.sk^
 ||akw.sk^
-||inforovnovaha.sk^
 ||belobog.sk^
-||kla.tv^
 ||jezis-kristus-varovanie.net^
 ||e-republika.ch^
 ||creativesociety.com^
@@ -271,7 +266,6 @@
 ||znovuspolu.com^
 ||rozhlady.sk^
 ||oracle911blog.wordpress.com^
-||slovensky-vecernik.sk^
 ||slovenskoaktualne.sk^
 ||dfens-cz.com^
 ||meapatria.sk^
