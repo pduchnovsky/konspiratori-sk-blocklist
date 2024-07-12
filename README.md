@@ -9,4 +9,4 @@ Add this link to your blocklists:
 https://raw.githubusercontent.com/pduchnovsky/konspiratori-sk-blocklist/main/konspiratori-sk-filter.txt
 ```
 
-###### Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
+###### Note: This blocklist is unofficial and not affiliated with the creators of konspiratori.sk
