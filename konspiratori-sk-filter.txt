@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Fri Aug  2 01:56:48 UTC 2024
+! Last change: Fri Aug  2 13:10:01 UTC 2024
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -162,6 +162,7 @@
 ||zvedavec.news^
 ||svobodny-vysilac.cz^
 ||protest.novemedia.sk^
+||inforovnovaha.sk^
 ||ocemsemlci.cz^
 ||czechfreepress.info^
 ||obcansky-tydenik.cz^
