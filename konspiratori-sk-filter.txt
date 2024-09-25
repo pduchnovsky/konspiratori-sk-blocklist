@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Tue Sep 24 13:16:03 UTC 2024
+! Last change: Wed Sep 25 02:10:52 UTC 2024
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -262,6 +262,7 @@
 ||christianitas.sk^
 ||magazin1.sk^
 ||koalafeed.com^
+||slovensky-vecernik.sk^
 ||gancovky.sk^
 ||radiouniversum.cz^
 ||abybylojasno.cz^
