@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Sat May 31 13:18:33 UTC 2025
+! Last change: Sun Jun  1 02:54:21 UTC 2025
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
