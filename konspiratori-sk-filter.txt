@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Mon Sep  8 02:21:02 UTC 2025
+! Last change: Mon Sep  8 13:21:21 UTC 2025
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -213,6 +213,7 @@
 ||creativesociety.com^
 ||spolocnostsbm.com^
 ||rodon.cz^
+||progresivne.com^
 ||slovenskeslovo.sk^
 ||domacaliecba.sk^
 ||themindunleashed.com^
