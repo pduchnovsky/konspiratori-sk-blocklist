@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Mon Oct  6 13:20:42 UTC 2025
+! Last change: Tue Oct  7 02:13:23 UTC 2025
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -182,6 +182,7 @@
 ||otvoroci.com^
 ||extraplus.sk^
 ||lajkit.cz^
+||raptor-tv.cz^
 ||spravy.goodboog.com^
 ||nastub.cz^
 ||nezavislamedia.cz^
