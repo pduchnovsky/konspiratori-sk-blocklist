@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Sun Nov 23 13:14:35 UTC 2025
+! Last change: Mon Nov 24 02:45:02 UTC 2025
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -88,6 +88,7 @@
 ||freedomeurope.eu^
 ||lifenews.sk^
 ||samvojakvpoli.sk^
+||ceskylist.cz^
 ||zalobyvocistatu.sk^
 ||bezpressu.news^
 ||otevrisvoumysl.cz^
@@ -99,7 +100,6 @@
 ||ceskoaktualne.cz^
 ||pravyprostor.net^
 ||aktax.cz^
-||ceskylist.cz^
 ||infovojna.com^
 ||ovirustunejde.cz^
 ||sk.news-front.su^
@@ -163,6 +163,7 @@
 ||nejvic-info.cz^
 ||wmmagazin.cz^
 ||wertyzreport.cz^
+||raptor-tv.cz^
 ||zvedavec.news^
 ||svobodny-vysilac.cz^
 ||protest.novemedia.sk^
@@ -182,7 +183,6 @@
 ||otvoroci.com^
 ||extraplus.sk^
 ||lajkit.cz^
-||raptor-tv.cz^
 ||spravy.goodboog.com^
 ||nastub.cz^
 ||nezavislamedia.cz^
@@ -203,8 +203,10 @@
 ||ubytovanieslovensko.com^
 ||kvapkymms.sk^
 ||radiokompas.sk^
+||srspol.sk^
 ||tvorivaspolocnost.sk^
 ||faktyadokazy.cc^
+||progresivne.com^
 ||mocvedomi.cz^
 ||datel.sk^
 ||breitbart.com^
@@ -217,13 +219,13 @@
 ||creativesociety.com^
 ||spolocnostsbm.com^
 ||rodon.cz^
-||progresivne.com^
 ||slovenskeslovo.sk^
 ||domacaliecba.sk^
 ||themindunleashed.com^
 ||alatyr.sk^
 ||prinasamenadej.sk^
 ||quintus-sertorius.webnode.cz^
+||paradigma.sk^
 ||slovinfos.sk^
 ||dennik-dnes.sk^
 ||katolicka-cirkev-vosvete.webnode.sk^
@@ -233,7 +235,6 @@
 ||slovanskenebe.com^
 ||plenum.sk^
 ||zsi.sk^
-||srspol.sk^
 ||e-republika.cz^
 ||reformy.cz^
 ||aktuality24.sk^
@@ -257,6 +258,7 @@
 ||casopisdimenzie.sk^
 ||40plus.sk^
 ||slovenskydohovorzarodinu.sk^
+||svatoplukzs.cz^
 ||nitranoviny.sk^
 ||elektrosmog.voxo.eu^
 ||politickemimovladky.sk^
@@ -271,14 +273,13 @@
 ||radiouniversum.cz^
 ||parlamentnilisty.cz^
 ||abybylojasno.cz^
-||modryjelen.com^
-||svatoplukzs.cz^
 ||bystricoviny.sk^
 ||jenona.tiscali.cz^
 ||zpravodaj24.eu^
 ||archa21.sk^
 ||znovuspolu.com^
 ||rozhlady.sk^
+||modryjelen.com^
 ||oracle911blog.wordpress.com^
 ||slovenskoaktualne.sk^
 ||dfens-cz.com^
@@ -303,6 +304,7 @@
 ||vmagazin.sk^
 ||michalapetr.cz^
 ||poselstvi-zbytku.org^
+||slovenskobezgmo.org^
 ||mimoriadnespravy.sk^
 ||novysmer.cz^
 ||kob-forum.eu^
@@ -312,13 +314,13 @@
 ||vlkovobloguje.wordpress.com^
 ||dennikdnes.com^
 ||noveslovo.eu^
-||zurnaly.sk^
 ||veci-verejne.sk^
 ||spravodaj.net^
 ||withform.cz^
 ||trendweb.sk^
 ||dieta.sk^
 ||hrot.info^
+||zurnaly.sk^
 ||svobodnymonitor.cz^
 ||parlamentne-volby-2016.sk^
 ||hfi.sk^
