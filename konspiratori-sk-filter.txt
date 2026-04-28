@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Tue Apr 28 04:27:02 UTC 2026
+! Last change: Tue Apr 28 15:11:07 UTC 2026
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -197,7 +197,6 @@
 ||topcz.net^
 ||jnet.sk^
 ||bajecnezdravie.sk^
-||radyprezdravie.sk^
 ||radyprezeny.sk^
 ||eurorespekt.sk^
 ||rodacirodakom.sk^
