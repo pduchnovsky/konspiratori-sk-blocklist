@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Wed Aug 12 03:14:14 UTC 2026
+! Last change: Wed Aug 12 14:08:55 UTC 2026
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -335,7 +335,6 @@
 ||mimoriadnespravy.sk^
 ||novysmer.cz^
 ||kob-forum.eu^
-||standard.sk^
 ||stredoevropan.cz^
 ||medicalcentrum.eu^
 ||vlkovobloguje.wordpress.com^
@@ -352,6 +351,7 @@
 ||parlamentne-volby-2016.sk^
 ||milanantal.blog.pravda.sk^
 ||hfi.sk^
+||standard.sk^
 ||czechaslavakia.cz^
 ||noveslovo.sk^
 ||zlapanda.cz^
