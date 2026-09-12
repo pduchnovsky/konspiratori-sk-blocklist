@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Sat Sep 12 13:49:24 UTC 2026
+! Last change: Sat Sep 12 15:53:26 UTC 2026
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -74,6 +74,7 @@
 ||isstras.eu^
 ||infokuryr.cz^
 ||myspulesvet.org^
+||volnyblog.news^
 ||zvtv.sk^
 ||cz24.news^
 ||voxpopuliblog.cz^
@@ -124,7 +125,7 @@
 ||alianciazanedelu.sk^
 ||nepodvoleni.cz^
 ||jednotneslovensko.info^
-||www.chcemeslobodu.sk^
+||chcemeslobodu.sk^
 ||kanal22.cz^
 ||morezprav.cz^
 ||poockovani.cz^
@@ -196,6 +197,7 @@
 ||revoluciapravdy.sk^
 ||pavolslota.blog.pravda.sk^
 ||topcz.net^
+||svobodne-radio.com^
 ||slovanskyvybor.sk^
 ||jnet.sk^
 ||bajecnezdravie.sk^
@@ -236,8 +238,10 @@
 ||pskakal2.blog.pravda.sk^
 ||ferro.blog.pravda.sk^
 ||alatyr.sk^
+||odznova.sk^
 ||prinasamenadej.sk^
 ||quintus-sertorius.webnode.cz^
+||slovenskoveciverejne.com^
 ||paradigma.sk^
 ||slovinfos.sk^
 ||dennik-dnes.sk^
@@ -283,6 +287,7 @@
 ||dolezite.sk^
 ||napalete.sk^
 ||vylectese.cz^
+||vasevec.info^
 ||christianitas.sk^
 ||dennikn.news^
 ||magazin1.sk^
@@ -308,6 +313,7 @@
 ||oracle911blog.wordpress.com^
 ||slovenskoaktualne.sk^
 ||dfens-cz.com^
+||institutisop.sk^
 ||meapatria.sk^
 ||kupredudominulosti.cz^
 ||ipribeh.cz^
@@ -315,6 +321,7 @@
 ||ozonyx.cz^
 ||sknews.sk^
 ||armadnymagazin.sk^
+||sia-news.com^
 ||marker.sk^
 ||prvnizpravy.cz^
 ||davdva.sk^
