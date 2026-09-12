@@ -17,23 +17,36 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - name: Pull list, update format and save
+
+      - name: Download source list
         run: |
-          cat <<-EOF > $filename
+          curl -sSfL \
+            --connect-timeout 15 \
+            --max-time 60 \
+            --retry 5 \
+            --retry-delay 5 \
+            --retry-all-errors \
+            "$sourceurl" -o raw_list.txt
+
+      - name: Generate filter list
+        run: |
+          cat <<EOF > "$filename"
           ! Homepage: https://${domain}
           ! Title: ${domain} filter list
           ! Last change: $(date)
           ! GitHub repository: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}
           ! Note: This is an unofficial blocklist not related to the creators of ${domain}
           !
-          $(curl -so - $sourceurl | awk -F ',' '{print "||"$1"^"}')
           EOF
-      - name: verify basic format/content
-        run: grep -qE "^\|\|(([a-zA-Z](-?[a-zA-Z0-9])*)\.)+[a-zA-Z]{2,}\^$" $filename || exit 1
+          awk -F ',' '{print "||"$1"^"}' raw_list.txt >> "$filename"
+
+      - name: Verify filter format and content
+        run: grep -qE "^\|\|(([a-zA-Z](-?[a-zA-Z0-9])*)\.)+[a-zA-Z]{2,}\^$" "$filename"
+
       - name: Commit updated file
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com"
-          git add $filename
+          git add "$filename"
           git commit -am "Updated filter"
           git push
