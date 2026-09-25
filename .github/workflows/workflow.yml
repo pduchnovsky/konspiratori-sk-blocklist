@@ -36,7 +36,7 @@ jobs:
           cat <<EOF > "$filename"
           ! Homepage: https://${domain}
           ! Title: ${domain} filter list
-          ! Last change: $(date)
+          ! Last change: $(date --utc '+%Y-%m-%dT%H:%M:%SZ')
           ! GitHub repository: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}
           ! Note: This is an unofficial blocklist not related to the creators of ${domain}
           !
@@ -50,10 +50,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "$filename"
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
+          if git cat-file -e "HEAD:$filename" 2>/dev/null \
+            && diff -q \
+              <(git show "HEAD:$filename" | sed '/^! Last change: /d') \
+              <(sed '/^! Last change: /d' "$filename") > /dev/null; then
+            echo "No source-list changes to commit"
           else
+            git add "$filename"
             git commit -m "Updated filter"
             git push
           fi
