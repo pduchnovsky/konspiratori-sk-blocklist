@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: Fri Sep 25 05:31:12 UTC 2026
+! Last change: 2026-09-28T05:59:20Z
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -153,6 +153,7 @@
 ||panobcan.sk^
 ||slobodnyvyber.sk^
 ||nazorobcana.sk^
+||zapravdu.sk^
 ||hlavnespravy.sk^
 ||dostojneslovensko.eu^
 ||mykaellle.blog.pravda.sk^
