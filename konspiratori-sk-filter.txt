@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: 2026-09-28T05:59:20Z
+! Last change: 2026-11-10T00:57:19Z
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -246,6 +246,7 @@
 ||paradigma.sk^
 ||slovinfos.sk^
 ||dennik-dnes.sk^
+||misiafatima.sk^
 ||jankratky.blog.pravda.sk^
 ||katolicka-cirkev-vosvete.webnode.sk^
 ||malinova.blog.pravda.sk^
@@ -267,18 +268,22 @@
 ||farmazdravi.cz^
 ||janatutkova.blog.pravda.sk^
 ||zdrdol.blog.pravda.sk^
+||https://nezaujato.wordpress.com/^
 ||tvotv.sk^
 ||paralelne.cz^
 ||spdr.sk^
 ||allatra.sk^
 ||odbornakomisia.sk^
 ||resetheus.org^
+||https://www.marian-magat.com/^
 ||eportal.cz^
 ||skspravy.sk^
 ||veget.blog.pravda.sk^
 ||zmensvojzivot.cz^
 ||televiziaslovan.sk^
 ||casopisdimenzie.sk^
+||https://www.inovacerepubliky.cz/^
+||https://platforma.inovacerepubliky.cz/blog^
 ||40plus.sk^
 ||slovenskydohovorzarodinu.sk^
 ||svatoplukzs.cz^
@@ -292,6 +297,7 @@
 ||christianitas.sk^
 ||dennikn.news^
 ||magazin1.sk^
+||https://tvorba.net/^
 ||koalafeed.com^
 ||slovensky-vecernik.sk^
 ||gancovky.sk^
@@ -371,6 +377,7 @@
 ||vmarkus.sk^
 ||autoforum.cz^
 ||vitalitis.cz^
+||antikoncepcia.org^
 ||theepochtimes.com^
 ||slovenskaiskra.sk^
 ||babickinerady.sk^
