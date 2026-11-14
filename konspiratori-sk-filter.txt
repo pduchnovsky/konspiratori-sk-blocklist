@@ -1,6 +1,6 @@
 ! Homepage: https://konspiratori.sk
 ! Title: konspiratori.sk filter list
-! Last change: 2026-11-10T00:57:19Z
+! Last change: 2026-11-14T12:57:16Z
 ! GitHub repository: https://github.com/pduchnovsky/konspiratori-sk-blocklist
 ! Note: This is an unofficial blocklist not related to the creators of konspiratori.sk
 !
@@ -268,22 +268,22 @@
 ||farmazdravi.cz^
 ||janatutkova.blog.pravda.sk^
 ||zdrdol.blog.pravda.sk^
-||https://nezaujato.wordpress.com/^
+||nezaujato.wordpress.com^
 ||tvotv.sk^
 ||paralelne.cz^
 ||spdr.sk^
 ||allatra.sk^
 ||odbornakomisia.sk^
 ||resetheus.org^
-||https://www.marian-magat.com/^
+||marian-magat.com^
 ||eportal.cz^
 ||skspravy.sk^
 ||veget.blog.pravda.sk^
 ||zmensvojzivot.cz^
 ||televiziaslovan.sk^
 ||casopisdimenzie.sk^
-||https://www.inovacerepubliky.cz/^
-||https://platforma.inovacerepubliky.cz/blog^
+||inovacerepubliky.cz^
+||platforma.inovacerepubliky.cz^
 ||40plus.sk^
 ||slovenskydohovorzarodinu.sk^
 ||svatoplukzs.cz^
@@ -297,7 +297,6 @@
 ||christianitas.sk^
 ||dennikn.news^
 ||magazin1.sk^
-||https://tvorba.net/^
 ||koalafeed.com^
 ||slovensky-vecernik.sk^
 ||gancovky.sk^
